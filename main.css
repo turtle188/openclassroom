@@ -1,14 +1,20 @@
-
-#main_wrapper
+body
 
 {
-    width: 1200px;
-    margin: 0 auto;
-
+    margin: 0;
 }
 
 
-header
+
+.container
+
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+header .container
 
 {
     display: flex;
@@ -19,12 +25,6 @@ header
 
 
 
-#logo
-
-{
-    
-
-}
 nav ul li
 
 {
@@ -107,9 +107,68 @@ nav ul li a
 }
 
 
+#bckground_transition
+
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(96, 174, 209);
+    height: 3px;
+    width: 100%;
+    transition-property: background-color;
+    animation: loader 8s infinite ease;
+}
+
+
+@keyframes loader
+
+{
+    from {width: 0%} to {width: 100%}
+}
 
 
 
+#arrow_position
+
+{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    align-items: center;
+}
+
+#arrow-left_position, #arrow-right_position  
+
+{
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+    padding: 20px 13px;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+/*
+#arrow-left_position 
+
+{
+    position: relative;
+    top: 50%;
+    color: white;
+    background-color: black;
+}
+
+
+#arrow-right_position
+
+
+{
+    position: relative;
+    top: 46.4%;
+    left: 1192px;
+    color: white;
+}
 
 
 
