@@ -2,6 +2,7 @@ body
 
 {
     margin: 0;
+    font-family: sans-serif;
 }
 
 
@@ -9,7 +10,7 @@ body
 .container
 
 {
-    width: 1000px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -82,6 +83,7 @@ nav ul li a
     position: absolute;
     top: 180px;
     left: 100px;
+
     color: white;
 }
 
@@ -93,9 +95,9 @@ nav ul li a
     background-color: rgb(84, 161, 197);
     color: white;
     padding: 8.5px;
-    box-shadow: 0px 0.2px 0px 0.2px black;
     border: none;
-    border-radius: 2px;
+    border-radius: 2.5px;
+    font-size: 16.5px;
 }
 
 
@@ -139,36 +141,124 @@ nav ul li a
     align-items: center;
 }
 
-#arrow-left_position, #arrow-right_position  
+#arrow-left_design  
 
 {
     background-color: rgba(0,0,0, 0.2);
     color: white;
-    padding: 20px 13px;
+    padding: 20px 14px;
     border-radius: 0px 50px 50px 0px;
-
+    font-size: 20px;
 }
 
-/*
-#arrow-left_position 
+#arrow-right_design
+
+{
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+    padding: 20px 15px;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 20px;
+}
+
+
+.container_section
+
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.description_center
+
+{
+
+    text-align: center;
+}
+
+
+
+.description_center h1
+
+{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+
+hr
+
+{
+    width: 6%;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    opacity: 0.2;
+}
+
+
+#container-services_display
+
+{
+    display: flex;
+}
+
+
+.ball_display
+
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ball_design
+
+{
+    color: rgb(82, 162, 201);
+    font-size: 14px;
+}
+
+
+.circle 
+
+{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 75px;
+    border: 1px solid grey;
+}
+
+
+.icon_placement
 
 {
     position: relative;
-    top: 50%;
-    color: white;
-    background-color: black;
+    left: 24px;
+    top: 22px;
 }
 
 
-#arrow-right_position
-
+.icon_placement2
 
 {
     position: relative;
-    top: 46.4%;
-    left: 1192px;
-    color: white;
+    left: 66px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
